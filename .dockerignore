@@ -3,12 +3,7 @@
 .gitignore
 
 # Local config files
-.editorconfig
-
-#build files
-build.sh
-buildCache.sh
+.idea
 
 # Information files
 LICENSE
-README.md
