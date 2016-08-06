@@ -6,7 +6,7 @@ RUN apt-get update && \
 RUN wget -O - http://shell.ninthgate.se/packages/shell.ninthgate.se.gpg.key | apt-key add - && \
     echo "deb http://shell.ninthgate.se/packages/debian wheezy main" | tee -a /etc/apt/sources.list.d/plex.list
 
-VOLUME ["/data/media", "/var/lib/plexmediaserver/Library/Application\ Support/Plex\ Media\ Server"]
+VOLUME ["/data/media", "/var/lib/plexmediaserver"]
 
 EXPOSE 32400
 
